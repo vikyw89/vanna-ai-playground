@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vanna-ai-playground"
+version = "0.1.0"
+description = ""
+authors = ["vikyw89 <vikyw89@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kaleido="0.2.1"
+vanna = "^0.0.35"
+psycopg2-binary = "^2.9.9"
+db-dtypes = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
